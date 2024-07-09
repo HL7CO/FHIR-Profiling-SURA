@@ -1,0 +1,31 @@
+{
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "386725007",
+                "display": "Body temperature (observable entity)"
+            },
+            {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+    },
+    "effectiveDateTime": "2023-06-16T16:30:23-03:00",
+    "performer": [
+        {
+            "reference": "Practitioner/92d1c33d-169c-43dc-9fec-aad3f3ef3e26"
+        }
+    ],
+    "valueQuantity": {
+        "value": 37,
+        "unit": "ºC"
+    }
+}

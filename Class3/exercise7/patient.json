@@ -1,0 +1,53 @@
+{
+    "resourceType": "Patient",
+    "identifier": [
+        {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "PN",
+                        "display": "Patient Number"
+                    },
+                    {
+                        "system": "http://hl7.org.co/fhir/CodeSystem/PersonIdentifierType",
+                        "code": "CC",
+                        "display": "Cédula de Ciudadanía"
+                    }
+                ]
+            },
+            "value": "343498"
+        },
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "PPN",
+                        "display": "Passport Number"
+                    }
+                ]
+            },
+            "value": "AF343498",
+            "period": {
+                "start": "2024-07-02",
+                "end": "2034-07-01"
+            }
+        },
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "MR",
+                        "display": "Medical Record Number"
+                    }
+                ]
+            },
+            "value": "2347290347098"
+        }
+    ]
+}
