@@ -1,0 +1,30 @@
+{
+        "resourceType": "Patient",
+        "id": "c10c15fd-7290-458b-8140-ca9969118da8",
+        "identifier": [
+                {
+                        "type": {
+                                "coding": [
+                                        {
+                                                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                                "code": "MR",
+                                                "display": "Medical record number"
+                                        }
+                                ]
+                        },
+                        "value": "2f71db28d5bf"
+                }
+        ],
+        "active": true,
+        "name": [
+                {
+                        "family": "Martínez Pérez",
+                        "given": [
+                                "Maria",
+                                "Lucía"
+                        ]
+                }
+        ],
+        "gender": "female",
+        "birthDate": "1986-11-19"
+}

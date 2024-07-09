@@ -1,0 +1,55 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "ramones",
+    "url": "https://www.ramones.com",
+    "version" : "4.0.1",
+    "name": "Ramones",
+    "title": "Ramones Code System",
+    "status": "active",
+    "experimental": true,
+    "description": "Codes of the members of the Punk Rock band Ramones",
+    "purpose": "This FHIR resource type CodeSystem has been created for educational purposes.",
+    "count": 8,
+    "concept": [
+        {
+            "code": "joey",
+            "display": "Joey Ramone",
+            "definition": "Jeffrey Hyman: vocalista principal (1974-96) y batería (1974), (fallecido en 2001)"
+        },
+        {
+            "code": "johnny",
+            "display": "Johnny Ramone",
+            "definition": "John Cummings: guitarra (1974-96), (fallecido en 2004)"
+        },
+        {
+            "code": "deedee",
+            "display": "Dee Dee Ramone",
+            "definition": "Douglas Colvin: bajo y vocalista (1974-89), (fallecido en 2002)"
+        },
+        {
+            "code": "tommy",
+            "display": "Tommy Ramone",
+            "definition": "Thomas Erdelyi: batería (1974-78), (fallecido en 2014)"
+        },
+        {
+            "code": "marky",
+            "display": "Marky Ramone",
+            "definition": "Marc Bell): batería (1978-83, 1987-96)"
+        },
+        {
+            "code": "richie",
+            "display": "Richie Ramone",
+            "definition": "Richard Reinhardt: batería, corista (1983-87)"
+        },
+        {
+            "code": "elvis",
+            "display": "Elvis Ramone",
+            "definition": "Clement Bozewski: batería (1987, solo dos conciertos)"
+        },
+        {
+            "code": "cj",
+            "display": "C. J. Ramone",
+            "definition": "Christopher Joseph Ward: bajo, corista (1989-96)"
+        }
+    ]
+}
