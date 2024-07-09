@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ramones",
+    "url": "http://example.org/fhir/ValueSet/ramones",
+    "version" : "4.0.1",
+    "name": "Ramones",
+    "title": "Ramones Value Set",
+    "status": "active",
+    "experimental": true,
+    "description": "Codes of the members of the Punk Rock band Ramones",
+    "purpose": "This FHIR resource type CodeSystem has been created for educational purposes.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://www.ramones.com"
+            }
+        ]
+    }
+}
+
