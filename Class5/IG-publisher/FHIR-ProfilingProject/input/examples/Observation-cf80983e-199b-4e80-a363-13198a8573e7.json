@@ -1,0 +1,67 @@
+{
+  "resourceType": "Observation",
+  "id": "cf80983e-199b-4e80-a363-13198a8573e7",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "386725007",
+        "system": "http://snomed.info/sct",
+        "display": "Body temperature (observable entity)"
+      },
+      {
+        "code": "8310-5",
+        "system": "http://loinc.org",
+        "display": "Body temperature"
+      }
+    ],
+    "text": "Temperatura corporal"
+  },
+  "subject": {
+    "reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+  },
+  "effectiveDateTime": "2023-06-16T16:30:23-03:00",
+  "performer": [
+    {
+      "reference": "Practitioner/92d1c33d-169c-43dc-9fec-aad3f3ef3e26"
+    }
+  ],
+  "valueQuantity": {
+    "value": 37,
+    "unit": "ºC"
+  },
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "code": "N",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "display": "Normal"
+        }
+      ]
+    }
+  ],
+  "referenceRange": [
+    {
+      "low": {
+        "value": 36.5,
+        "unit": "ºC"
+      },
+      "high": {
+        "value": 37.3,
+        "unit": "ºC"
+      }
+    }
+  ]
+}

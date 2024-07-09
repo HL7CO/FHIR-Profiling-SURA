@@ -1,0 +1,28 @@
+id: fhir.profiling.example
+canonical: http://127.0.0.1:5500/fhir
+name: ExampleProfilingIG
+title: "HL7 FHIR Implementation Guide: FHIR profiling course project | Team A"
+description: An example of IG FHIR learning using SUSHI and FSH tools for the design and publication of HL7 FHIR profiles and implementation guides.
+fhirVersion: 4.0.1
+status: draft
+license: CC0-1.0
+date: 2023-06-23
+version: 0.1
+copyrightYear: 2023+
+releaseLabel: STU1
+publisher:
+  name: HL7 Colombia - Official Affiliate of Health Level Seven International
+  url: http://www.hl7co.org
+  email: nombre@example.com
+contact:
+  - name: Carolina Rodriguez
+    telecom:
+      - system: email
+        value: carolina.rodriguez@example.org
+        use: work
+  - name: Juan Pérez
+    telecom:
+      - system: email
+        value: juan.perez@example.org
+        use: work
+jurisdiction: urn:iso:std:iso:3166:CO "Colombia"
